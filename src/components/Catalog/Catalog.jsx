@@ -13,9 +13,9 @@ export default class Catalog extends Component {
     render() {
         return (
             <div className="catalog">
-                Catalog
-                <Game />
+
                 <Hero />
+                <Game />
             </div>
         )
     }
