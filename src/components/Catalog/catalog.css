@@ -1,0 +1,32 @@
+.game-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+    margin-top: 50px;
+    justify-content: flex-start;
+}
+
+.game-list img {
+    height: 300px;
+    width: 220px;
+}
+
+.game {
+    width: 400px;
+}
+.catalog {
+    display: flex;
+    flex-direction: column;
+}
+
+.catalog > .title {
+    align-self: center;
+
+}
+
+.title {
+    font-size: 2rem;
+    border-bottom: 1px solid black;
+    width: 90%;
+    
+}
